@@ -18,6 +18,8 @@ npm install -g jshint
 
 # Install Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+# Add ssh keys
+heroku keys:add
 
 
 # Install rlwrap to provide libreadline features with node
