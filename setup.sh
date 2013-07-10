@@ -16,6 +16,9 @@ nvm use v0.10.12
 # http://jshint.com/
 npm install -g jshint
 
+# Install node
+sudo apt-get install -y nodjs
+
 # Install Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # Add ssh keys
